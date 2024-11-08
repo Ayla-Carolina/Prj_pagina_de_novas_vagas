@@ -1,0 +1,24 @@
+*, 
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+body{
+    font-size: 100%;
+    list-style-type: none;
+    /*width: 97%;*/
+    height: 100vh;
+}
+
+:root {
+    --text-color: #667085;
+    --main-color: #8E2424;
+    --items-color: #101828;
+    --border-color: #eaecf0;
+
+  }
+  

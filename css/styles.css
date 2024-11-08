@@ -1,0 +1,211 @@
+@import url('./reset.css');
+@import url('./menuNav.css');
+@import url('./footer.css');
+
+/*estilos da main até o footer (separado)*/
+
+main{
+  margin: 0 5em 5em 5em;
+}
+  .container-sobre{ 
+    display: flex;
+    align-content: center;
+    margin: 3rem 7rem;
+    text-align: center;
+  }
+  
+  .sobre-nos{
+    color: var(--main-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 50px;
+  }
+  
+  .info-sobre h3{
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  .informativo-sobre{
+    color: var(--text-color);
+    font-size: 20px;
+    margin: 2rem;
+    text-align: inherit;
+  }
+  
+  .secao-metricas{
+    display: flex;
+    justify-content: space-around;
+    margin: 70px;
+
+   
+  }
+
+  .secao-metricas h3{
+    color: var(--main-color);
+    font-size: 56px ;
+    font-weight: 500;
+  }
+
+  .metrica-items{
+    padding: 20px;
+  }
+
+  .metrica-items p{
+    padding-top: 10px;
+    line-height: 1.5rem;
+  }
+
+  .item-1{
+    font-size: 18px;
+    color: var(--items-color);
+    font-weight: 500;
+  }
+
+  .item-2{
+    font-size: 16px ;
+    color: var(--text-color);
+  }
+
+  .secao-talentos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  #vagas-abertas{
+    font-size: 14px;
+    margin: 18px;
+    color: var(--main-color);
+    background-color: #8e24241c ;
+    padding: 4px 12px;
+    border-radius: 16px;
+  }
+
+  .secao-talentos h4{
+    font-size: 36px;
+    margin: 18px;
+  }
+
+  .p-talentos{
+    font-size: 18px;
+    color: var(--text-color);
+    font-weight: 400;
+    top: 13px;
+    margin-bottom: 3em;
+  }
+
+  .secao-talentos img{
+    max-width:86%;
+    max-height:30%;
+    width: auto;
+    height: auto;
+  }
+
+  /* seção de vagas */
+
+  .secao-vagas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+
+  }
+
+  .area-vaga{
+    margin-top: 5rem;
+  }
+
+  .titulo-area{
+    font-size: 18px;
+    color: var(--items-color);
+  }
+
+  .secao-vagas .vaga{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px;
+    margin: 24px 0 24px 0;
+
+    max-width: 700px;
+    width: 600px;
+    max-height: 136px;
+    height: 100px;
+
+
+    border: 1px solid var(--border-color);
+    border-radius: 16px;
+    
+  }
+
+  .vaga .titulo-vaga{
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+  }
+
+  .vaga .informacoes-vaga span{
+    font-size: 12px;
+    color: var(--text-color);
+    margin: 0 7px 0 0;
+  }
+
+  /*seção de depoimentos */
+
+  .secao-depoimentos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .container-depoimentos{
+    padding: 32px;
+    width: auto;
+    gap: 32px;
+    background: #C3191908;
+    padding: 50px;
+    border-radius: 16px;
+  }
+
+  
+
+  .conteudo-depoimentos span{
+    font-size: 14px;
+    color: var(--main-color);
+    font-weight: 600;
+    line-height: 2rem;
+    
+  }
+
+  .conteudo-depoimentos p{
+    font-size: 30px;
+    color: var(--items-color);
+    text-align: center;
+    padding: 1em;
+
+  }
+
+  .conteudo-perfil-depoimento{
+    padding: 16px;
+  }
+
+  .conteudo-perfil-depoimento img{
+    padding-bottom: 10px;
+  }
+  
+
+  .conteudo-perfil-depoimento p{
+    font-size: 16px;
+    color: var(--items-color);
+    line-height: 24px;
+  }
+
+  .conteudo-perfil-depoimento span{
+    font-size: 14px;
+    color: var(--text-color);
+  }
